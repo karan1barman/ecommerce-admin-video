@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 
-import { store } from '@prisma/client';
+import { Store } from '@prisma/client';
 import {
   Popover,
   PopoverContent,
@@ -27,7 +27,7 @@ type PopoverTriggerProps = React.ComponentPropsWithoutRef<
 >;
 
 interface StoreSwitcherProps extends PopoverTriggerProps {
-  items: store[];
+  items: Store[];
 }
 
 export default function StoreSwitcher({
