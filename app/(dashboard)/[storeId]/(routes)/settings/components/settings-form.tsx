@@ -1,6 +1,6 @@
 'use client';
 
-import { store } from '@prisma/client';
+import { Store } from '@prisma/client';
 import { useForm } from 'react-hook-form';
 import { Heading } from '@/components/ui/heading';
 import { Button } from '@/components/ui/button';
